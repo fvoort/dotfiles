@@ -12,21 +12,22 @@ brew 'svn' # Needed to install fonts
 
 # Development
 brew 'node'
+brew 'php'
 
 # Apps
 cask 'affinity-designer'
 cask 'affinity-photo'
+cask 'affinity-publisher'
 cask 'alt-tab'
-cask 'arc'
+cask 'google-chrome'
 cask 'figma'
 cask 'local'
 cask 'microsoft-excel'
 cask 'microsoft-word'
 cask 'mullvadvpn'
-cask 'polypane'
 cask 'raycast'
-cask 'transmit'
 cask 'visual-studio-code'
+cask 'github'
 
 # Quicklook
 cask 'qlmarkdown'
