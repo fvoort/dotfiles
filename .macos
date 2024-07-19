@@ -3,6 +3,9 @@
 # Thanks to Mathias Bynens!
 # ~/.macos — https://mths.be/macos
 
+# Install Rosetta 2
+softwareupdate --install-rosetta
+
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
