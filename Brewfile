@@ -8,7 +8,6 @@ brew 'grep'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'svn' # Needed to install fonts
 
 # Development
 brew 'node'
@@ -19,19 +18,24 @@ cask 'affinity-designer'
 cask 'affinity-photo'
 cask 'affinity-publisher'
 cask 'alt-tab'
-cask 'google-chrome'
+cask 'bitwarden'
+cask 'blender'
 cask 'figma'
+cask 'firefox'
+cask 'github'
 cask 'local'
 cask 'loom'
 cask 'microsoft-excel'
 cask 'microsoft-word'
 cask 'mullvadvpn'
 cask 'raycast'
+cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
-cask 'github'
-cask 'transmission'
-cask 'whatsapp'
+
+# Menu bar customisation
+cask 'hiddenbar'
+cask 'topnotch'
 
 # Quicklook
 cask 'qlmarkdown'
