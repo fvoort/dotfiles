@@ -26,5 +26,8 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
+# Install apps from App Store
+source ./mas.zsh
+
 # Symlink the Mackup config file to the home directory
 ln -s ./.mackup.cfg $HOME/.mackup.cfg
