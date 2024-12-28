@@ -1,9 +1,4 @@
 Echo "Installing apps from App Store..."
 
-# AdGuard
-mas purchase 1440147259
-mas install 1440147259
-
-# Trello
-mas purchase 1278508951
-mas install 1278508951
+mas purchase 6504861501 # Ghostery
+mas purchase 1278508951 # Trello
