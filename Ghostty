@@ -2,6 +2,7 @@ font-family = Monaspace Radon
 font-size = 18
 font-feature = -liga
 confirm-close-surface = false
+window-save-state = always
 
 # Night Owl Theme from https://github.com/cmseeling/ghostty-night-owl
 palette = 0=#011627
