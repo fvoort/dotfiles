@@ -31,10 +31,12 @@ cask 'mullvadvpn'
 cask 'obsidian'
 cask 'pictogram'
 cask 'raycast'
+cask 'signal'
 cask 'spotify'
 cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'whatsapp'
 
 # Quicklook
 cask 'qlmarkdown'
