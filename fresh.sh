@@ -14,6 +14,12 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
+# Symlink .zshrc to home directory
+ln -sf ~/.dotfiles/.zshrc ~/.zshrc
+
+# Symlink the Oh My Posh config file
+ln -sf ~/.dotfiles/zen.toml ~/.config/ohmyposh/zen.toml
+
 # Symlink the Mackup config file to the home directory
 ln -sf ~/.dotfiles/mackup.cfg ~/.mackup.cfg
 
