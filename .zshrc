@@ -12,7 +12,7 @@ source "${ZINIT_HOME}/zinit.zsh"
 
 # Enable Oh My Posh for non-Apple Terminal sessions
 if [ $TERM_PROGRAM != "Apple_Terminal" ]; then
-    eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+    eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/cattpuccin_mocha.json)"
 fi
 
 # Add installed Homebrew apps to path

@@ -17,8 +17,8 @@ brew bundle --file ./Brewfile
 # Symlink .zshrc to home directory
 ln -sf ~/.dotfiles/.zshrc ~/.zshrc
 
-# Symlink the Oh My Posh config file
-ln -sf ~/.dotfiles/zen.toml ~/.config/ohmyposh/zen.toml
+# Symlink the Oh My Posh theme file
+ln -sf ~/.dotfiles/cattpuccin_mocha.json ~/.config/ohmyposh/cattpuccin_mocha.json
 
 # Symlink the Mackup config file to the home directory
 ln -sf ~/.dotfiles/mackup.cfg ~/.mackup.cfg
