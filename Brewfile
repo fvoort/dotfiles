@@ -13,6 +13,7 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'node'
 brew 'php'
 brew 'oh-my-posh'
+brew 'fzf'
 
 # Apps
 cask 'affinity-designer'
