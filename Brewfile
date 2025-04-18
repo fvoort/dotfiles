@@ -14,6 +14,7 @@ brew 'node'
 brew 'php'
 brew 'oh-my-posh'
 brew 'fzf'
+brew 'zoxide'
 
 # Apps
 cask 'affinity-designer'
