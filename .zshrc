@@ -53,6 +53,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
+alias neofetch='fastfetch'
 
 # Shell integrations
 eval "$(fzf --zsh)"

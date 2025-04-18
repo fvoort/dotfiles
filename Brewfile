@@ -15,6 +15,7 @@ brew 'php'
 brew 'oh-my-posh'
 brew 'fzf'
 brew 'zoxide'
+brew 'fastfetch'
 
 # Apps
 cask 'affinity-designer'
