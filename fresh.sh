@@ -14,14 +14,14 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
-# Symlink .zshrc to home directory
-ln -sf ~/.dotfiles/.zshrc ~/.zshrc
-
-# Symlink the Oh My Posh theme file
-ln -sf ~/.dotfiles/cattpuccin_mocha.json ~/.config/ohmyposh/cattpuccin_mocha.json
-
 # Symlink the Mackup config file to the home directory
 ln -sf ~/.dotfiles/mackup.cfg ~/.mackup.cfg
 
+# Symlink .zshrc to home directory
+ln -sf ~/.dotfiles/Terminal/.zshrc ~/.zshrc
+
+# Symlink the Oh My Posh theme file
+ln -sf ~/.dotfiles/Terminal/omp-theme-catppuccin_mocha.json ~/.config/ohmyposh/cattpuccin_mocha.json
+
 # Symlink the Ghostty config file
-ln -sf ~/.dotfiles/ghostty ~/.config/ghostty/config
+ln -sf ~/.dotfiles/terminal/ghostty-config ~/.config/ghostty/config
