@@ -26,7 +26,9 @@ ln -sf ~/.dotfiles/Terminal/omp-theme-catppuccin_mocha.json ~/.config/ohmyposh/c
 # Symlink the Ghostty config file
 ln -sf ~/.dotfiles/terminal/ghostty-config ~/.config/ghostty/config
 
-# Change dock settings for faster auto-hide behaviour
+# Change dock settings
+defaults write com.apple.dock show-recents -bool FALSE # Hide recent apps
+defaults write com.apple.dock tilesize -float 32.5 # Change dock size
 defaults write com.apple.dock autohide-delay -int 0 # Remove delay for dock to appear
 defaults write com.apple.dock autohide-time-modifier -float 0.25 # Speed up dock animation
 killall Dock; # Restart Dock to apply changes
