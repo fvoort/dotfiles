@@ -18,10 +18,10 @@ brew bundle --file ./Brewfile
 ln -sf ~/.dotfiles/mackup.cfg ~/.mackup.cfg
 
 # Symlink .zshrc to home directory
-ln -sf ~/.dotfiles/Terminal/.zshrc ~/.zshrc
+ln -sf ~/.dotfiles/terminal/.zshrc ~/.zshrc
 
 # Symlink the Oh My Posh theme file
-ln -sf ~/.dotfiles/Terminal/omp-theme-catppuccin_mocha.json ~/.config/ohmyposh/cattpuccin_mocha.json
+ln -sf ~/.dotfiles/terminal/omp-theme-catppuccin_mocha.json ~/.config/ohmyposh/cattpuccin_mocha.json
 
 # Symlink the Ghostty config file
 ln -sf ~/.dotfiles/terminal/ghostty-config ~/.config/ghostty/config
