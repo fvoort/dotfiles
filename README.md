@@ -42,8 +42,6 @@ After backing up your old Mac you may now follow these install instructions to s
 
 Your Mac is now ready to use!
 
-> 💡 You can use a different location than `~/.dotfiles` if you want. Make sure you also update the references in the [`.zshrc`](./.zshrc#L2) and [`fresh.sh`](./fresh.sh#L20) files.
-
 ### Cleaning your old Mac (optionally)
 
 After you've set up your new Mac you may want to wipe and clean install your old Mac. Follow [this article](https://support.apple.com/guide/mac-help/erase-and-reinstall-macos-mh27903/mac) to do that. Remember to [backup your data](#backup-your-data) first!
