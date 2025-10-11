@@ -1,6 +1,6 @@
 ## A Fresh macOS Setup
 
-Instructions for setting up new Mac devices.
+This repository contains instructions and scripts for setting up a new Mac from scratch. It automates essential configurations, installs preferred tools, and restores previous settings so you can get up and running quickly.
 
 ### Backup your data
 
@@ -48,6 +48,6 @@ Your Mac is now ready to use!
 
 After you've set up your new Mac you may want to wipe and clean install your old Mac. Follow [this article](https://support.apple.com/guide/mac-help/erase-and-reinstall-macos-mh27903/mac) to do that. Remember to [backup your data](#backup-your-data) first!
 
-## Thanks To...
+## Acknowledgements
 
-I'd like to thank [Dries Vints](https://github.com/driesvints) for their [dotfiles](https://github.com/driesvints/dotfiles) which mine are based on. Their blog post "[Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles)" was of great help to me too.
+Thanks to [Dries Vints](https://github.com/driesvints) for the inspiration behind these dotfiles and his blog post "[Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles)".
