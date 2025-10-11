@@ -32,3 +32,6 @@ defaults write com.apple.dock tilesize -float 32.5 # Change dock size
 defaults write com.apple.dock autohide-delay -int 0 # Remove delay for dock to appear
 defaults write com.apple.dock autohide-time-modifier -float 0.25 # Speed up dock animation
 killall Dock; # Restart Dock to apply changes
+
+# Configure Karabiner Elements
+sh ./karabiner.sh
