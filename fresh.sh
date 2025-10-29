@@ -11,7 +11,6 @@ fi
 brew update
 
 # Install all our dependencies with bundle (See Brewfile)
-brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
 # Symlink the Mackup config file to the home directory
@@ -21,10 +20,10 @@ ln -sf ~/.dotfiles/mackup.cfg ~/.mackup.cfg
 ln -sf ~/.dotfiles/terminal/.zshrc ~/.zshrc
 
 # Symlink the Oh My Posh theme file
-ln -sf ~/.dotfiles/terminal/omp-theme-catppuccin_mocha.json ~/.config/ohmyposh/cattpuccin_mocha.json
+mkdir ~/.config/ohmyposh/ && ln -sf ~/.dotfiles/terminal/omp-theme-catppuccin_mocha.json ~/.config/ohmyposh/cattpuccin_mocha.json
 
 # Symlink the Ghostty config file
-ln -sf ~/.dotfiles/terminal/ghostty-config ~/.config/ghostty/config
+mkdir -p ~/.config/ghostty && ln -sf ~/.dotfiles/terminal/ghostty-config ~/.config/ghostty/config
 
 # Change dock settings
 defaults write com.apple.dock show-recents -bool FALSE # Hide recent apps

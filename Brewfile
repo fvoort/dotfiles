@@ -11,6 +11,7 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 
 # Development
 brew 'node'
+brew 'yarn'
 brew 'php'
 brew 'oh-my-posh'
 brew 'fzf'
