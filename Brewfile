@@ -20,6 +20,7 @@ brew 'fastfetch'
 
 # Apps
 cask 'adobe-creative-cloud'
+cask 'affinity'
 cask 'alt-tab'
 cask 'blender'
 cask 'figma'
