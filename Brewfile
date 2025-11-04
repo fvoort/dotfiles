@@ -39,6 +39,7 @@ cask 'mullvad-vpn'
 cask 'todoist-app'
 cask 'raycast'
 cask 'spotify'
+cask 'steam'
 cask 'visual-studio-code'
 cask 'whatsapp'
 
