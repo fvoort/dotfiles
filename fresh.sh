@@ -13,6 +13,9 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew bundle --file ./Brewfile
 
+# Install apps from App Store using mas (See mas.sh)
+sh ./mas.sh
+
 # Symlink the Mackup config file to the home directory
 ln -sf ~/.dotfiles/.mackup.cfg ~/.mackup.cfg
 
