@@ -14,7 +14,7 @@ brew update
 brew bundle --file ./Brewfile
 
 # Symlink the Mackup config file to the home directory
-ln -sf ~/.dotfiles/mackup.cfg ~/.mackup.cfg
+ln -sf ~/.dotfiles/.mackup.cfg ~/.mackup.cfg
 
 # Symlink .zshrc to home directory
 ln -sf ~/.dotfiles/terminal/.zshrc ~/.zshrc
