@@ -17,6 +17,7 @@ brew 'oh-my-posh'
 brew 'fzf'
 brew 'zoxide'
 brew 'fastfetch'
+brew 'hugo'
 
 # Apps
 cask 'adobe-creative-cloud'
