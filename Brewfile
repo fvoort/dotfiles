@@ -49,3 +49,4 @@ cask 'quicklook-json'
 
 # Fonts
 cask 'font-monaspace'
+cask 'font-monaspace-nf'
