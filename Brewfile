@@ -6,7 +6,6 @@ brew 'gh'
 brew 'git'
 brew 'grep'
 brew 'mackup'
-brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'yt-dlp'
 
@@ -21,7 +20,6 @@ brew 'fastfetch'
 brew 'hugo'
 
 # Apps
-cask 'adobe-creative-cloud'
 cask 'affinity'
 cask 'alt-tab'
 cask 'blender'
