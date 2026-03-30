@@ -1,0 +1,233 @@
+schemaVersion = 1
+
+[extensions]
+enabledIdentifiers = [ 'com.brnbw.tuna.plugins.github' ]
+
+[hotkeys.app.activate]
+carbonKeyCode = 49
+carbonModifiers = 6912
+
+[hotkeys.app.dictation]
+carbonKeyCode = 17
+carbonModifiers = 6912
+
+[hotkeys.app.leaderMode]
+carbonKeyCode = 31
+carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '1EA352FD-C404-41BE-821F-EA220A7AFD77'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'Tuna.BasicActionsCatalog.Browse'
+    subjectIdentifier = 'TunaEmoji.EmojiSearchCatalog.Emoji'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 14
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '2020AE8F-1618-4BAC-8DBD-4E21942FF087'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaSystem.ColorToolsCatalog.Pick Color'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 35
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '40FF54FF-AAE9-49C0-AF86-5E2C0186BE85'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Top Left Quarter'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 18
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '55953308-2599-4554-8495-484ED6D7A9C8'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Bottom Half'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 125
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '5D291AB3-2770-4683-B16A-4A064DEAEBA0'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Bottom Left Quarter'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 20
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '6137A124-69BD-46F0-8242-F843913C11D8'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Bottom Right Quarter'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 21
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '645744EB-5B50-4F20-90BC-CA4123AF40CB'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Maximize'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 36
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '960FF5FF-4CE0-47D0-80EF-4FF6AB25467D'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Top Right Quarter'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 19
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'A295299E-E2A0-466B-915D-C1FC58152A46'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Right Half'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 124
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'CB2C85B8-0E71-4A93-8EFD-5D23DDB1F314'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Left Half'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 123
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'D6F32150-DDED-4A85-A93C-C745365D276C'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaAutomation.SystemTasksCatalog.Lock Screen'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 37
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'ED06BD79-849A-44F9-B0AA-7A466C4D8E4A'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'Tuna.BasicActionsCatalog.Browse'
+    subjectIdentifier = 'Tuna.Internal.ClipboardProxyCatalog.Clipboard History'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 4
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'FAA805C2-E521-4B05-962F-21D70ABCC403'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Top Half'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 126
+    carbonModifiers = 6912
+
+[[leaderMode.bindings]]
+key = 'f'
+label = 'Finder'
+url = 'tuna://run/TunaCore.SystemApplicationsCatalog.Finder/Open'
+
+[[leaderMode.bindings]]
+key = 'b'
+label = 'Browser'
+url = 'tuna://run/TunaCore.AllApplicationsCatalog.Dia/Open'
+
+[[leaderMode.bindings]]
+key = 'm'
+label = 'Mail'
+url = 'tuna://run/TunaCore.SystemApplicationsCatalog.Mail/Open'
+
+[[leaderMode.bindings]]
+key = 'w'
+label = 'WhatsApp'
+url = 'tuna://run/TunaCore.AllApplicationsCatalog.WhatsApp/Open'
+
+[[leaderMode.bindings]]
+key = 'c'
+label = 'Calendar'
+url = 'tuna://run/TunaCore.AllApplicationsCatalog.BusyCal/Open'
+
+[[leaderMode.bindings]]
+key = 'n'
+label = 'Notion'
+url = 'tuna://run/TunaCore.AllApplicationsCatalog.Notion/Open'
+
+[[leaderMode.bindings]]
+key = 'k'
+label = 'Keep'
+url = 'tuna://run/TunaCore.SystemApplicationsCatalog.Notes/Open'
+
+[[leaderMode.bindings]]
+key = 's'
+label = 'Spotify'
+url = 'tuna://run/TunaCore.AllApplicationsCatalog.Spotify/Open'
+
+[[leaderMode.bindings]]
+key = 'v'
+label = 'Visual Studio Code'
+url = 'tuna://run/TunaCore.AllApplicationsCatalog.Visual%20Studio%20Code/Open'
+
+[[leaderMode.bindings]]
+key = 't'
+label = 'Terminal'
+url = 'tuna://run/TunaCore.AllApplicationsCatalog.Ghostty/Open'
+
+[settings]
+dictationActivationMode = 'toggle'
+physicalHyperKeySource = 'capsLock'
+themeIdentifier = 'com.brnbw.tuna.themes.default'
+
+[[catalogSettings]]
+catalogIdentifier = 'com.brnbw.tuna.themes.default'
+
+    [catalogSettings.values]
+    ThemeTint = 'system'
