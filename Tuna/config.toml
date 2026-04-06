@@ -8,11 +8,15 @@ carbonKeyCode = 49
 carbonModifiers = 6912
 
 [hotkeys.app.dictation]
-carbonKeyCode = 17
+carbonKeyCode = 2
 carbonModifiers = 6912
 
 [hotkeys.app.leaderMode]
 carbonKeyCode = 15
+carbonModifiers = 6912
+
+[hotkeys.app.textMode]
+carbonKeyCode = 17
 carbonModifiers = 6912
 
 [[hotkeys.custom]]
@@ -28,105 +32,134 @@ presentation = 'auto'
     carbonModifiers = 2048
 
 [[leaderMode.bindings]]
+key = 'e'
+label = 'Emoji'
+url = 'tuna://run/TunaEmoji.EmojiSearchCatalog.Emoji/Tuna.BasicActionsCatalog.Browse'
+
+[[leaderMode.bindings]]
+key = 'h'
+label = 'History'
+url = 'tuna://run/Tuna.Internal.ClipboardProxyCatalog.Clipboard%20History/Tuna.BasicActionsCatalog.Browse'
+
+[[leaderMode.bindings]]
+key = 'l'
+label = 'Lock Screen'
+url = 'tuna://run/TunaAutomation.SystemTasksCatalog.Lock%20Screen/TunaCore.CommonActionsCatalog.Run'
+
+[[leaderMode.bindings]]
 iconPath = 'app.dashed'
-key = 'a'
+key = 'o'
 label = 'Apps'
 
     [[leaderMode.bindings.children]]
     key = 'f'
+    label = 'Finder'
     url = 'tuna://run/TunaCore.SystemApplicationsCatalog.Finder/Open'
 
     [[leaderMode.bindings.children]]
     key = 'b'
+    label = 'Browser'
     url = 'tuna://run/TunaCore.AllApplicationsCatalog.Dia/Open'
 
     [[leaderMode.bindings.children]]
     key = 'm'
+    label = 'Mail'
     url = 'tuna://run/TunaCore.SystemApplicationsCatalog.Mail/Open'
 
     [[leaderMode.bindings.children]]
     key = 'w'
+    label = 'WhatsApp'
     url = 'tuna://run/TunaCore.AllApplicationsCatalog.WhatsApp/Open'
 
     [[leaderMode.bindings.children]]
     key = 'c'
+    label = 'Calendar'
     url = 'tuna://run/TunaCore.AllApplicationsCatalog.BusyCal/Open'
 
     [[leaderMode.bindings.children]]
-    key = 'n'
+    key = 'o'
+    label = 'Notion'
     url = 'tuna://run/TunaCore.AllApplicationsCatalog.Notion/Open'
 
     [[leaderMode.bindings.children]]
-    key = 'k'
+    key = 'n'
+    label = 'Notes'
     url = 'tuna://run/TunaCore.SystemApplicationsCatalog.Notes/Open'
 
     [[leaderMode.bindings.children]]
     key = 's'
+    label = 'Spotify'
     url = 'tuna://run/TunaCore.AllApplicationsCatalog.Spotify/Open'
 
     [[leaderMode.bindings.children]]
-    key = 'v'
-    url = 'tuna://run/TunaCore.AllApplicationsCatalog.Visual%20Studio%20Code/Open'
+    key = 'e'
+    label = 'Editor'
+    url = 'tuna://run/TunaCore.AllApplicationsCatalog.Zed/Open'
 
     [[leaderMode.bindings.children]]
     key = 't'
+    label = 'Terminal'
     url = 'tuna://run/TunaCore.AllApplicationsCatalog.Ghostty/Open'
-
-[[leaderMode.bindings]]
-key = 'c'
-url = 'tuna://run/Tuna.Internal.ClipboardProxyCatalog.Clipboard%20History/Tuna.BasicActionsCatalog.Browse'
-
-[[leaderMode.bindings]]
-key = 'e'
-url = 'tuna://run/TunaEmoji.EmojiSearchCatalog.Emoji/Tuna.BasicActionsCatalog.Browse'
-
-[[leaderMode.bindings]]
-key = 'l'
-url = 'tuna://run/TunaAutomation.SystemTasksCatalog.Lock%20Screen/TunaCore.CommonActionsCatalog.Run'
 
 [[leaderMode.bindings]]
 iconPath = 'macwindow.on.rectangle'
 key = 'w'
+label = 'Window'
 
     [[leaderMode.bindings.children]]
     key = 'left'
+    label = 'Left'
     url = 'tuna://run/TunaSystem.WindowManagementCatalog.Left%20Half/TunaCore.CommonActionsCatalog.Run%20in%20Background'
 
     [[leaderMode.bindings.children]]
     key = 'right'
+    label = 'Right'
     url = 'tuna://run/TunaSystem.WindowManagementCatalog.Right%20Half/TunaCore.CommonActionsCatalog.Run%20in%20Background'
 
     [[leaderMode.bindings.children]]
     key = 'up'
+    label = 'Top'
     url = 'tuna://run/TunaSystem.WindowManagementCatalog.Top%20Half/TunaCore.CommonActionsCatalog.Run%20in%20Background'
 
     [[leaderMode.bindings.children]]
     key = 'down'
+    label = 'Bottom'
     url = 'tuna://run/TunaSystem.WindowManagementCatalog.Bottom%20Half/TunaCore.CommonActionsCatalog.Run%20in%20Background'
 
     [[leaderMode.bindings.children]]
     key = 'enter'
+    label = 'Maximize'
     url = 'tuna://run/TunaSystem.WindowManagementCatalog.Maximize/TunaCore.CommonActionsCatalog.Run%20in%20Background'
 
     [[leaderMode.bindings.children]]
     key = 'c'
+    label = 'Center'
     url = 'tuna://run/TunaSystem.WindowManagementCatalog.Center/TunaCore.CommonActionsCatalog.Run%20in%20Background'
 
     [[leaderMode.bindings.children]]
     key = '1'
+    label = 'Top Left'
     url = 'tuna://run/TunaSystem.WindowManagementCatalog.Top%20Left%20Quarter/TunaCore.CommonActionsCatalog.Run%20in%20Background'
 
     [[leaderMode.bindings.children]]
     key = '2'
+    label = 'Top Right'
     url = 'tuna://run/TunaSystem.WindowManagementCatalog.Top%20Right%20Quarter/TunaCore.CommonActionsCatalog.Run%20in%20Background'
 
     [[leaderMode.bindings.children]]
     key = '3'
+    label = 'Bottom Left'
     url = 'tuna://run/TunaSystem.WindowManagementCatalog.Bottom%20Left%20Quarter/TunaCore.CommonActionsCatalog.Run%20in%20Background'
 
     [[leaderMode.bindings.children]]
     key = '4'
+    label = 'Bottom Right'
     url = 'tuna://run/TunaSystem.WindowManagementCatalog.Bottom%20Right%20Quarter/TunaCore.CommonActionsCatalog.Run%20in%20Background'
+
+[[leaderMode.bindings]]
+key = 'p'
+label = 'Pick Color'
+url = 'tuna://run/TunaSystem.ColorToolsCatalog.Pick%20Color/TunaCore.CommonActionsCatalog.Run'
 
 [settings]
 dictationActivationMode = 'toggle'
