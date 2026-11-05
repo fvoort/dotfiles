@@ -1,3 +1,6 @@
+> [!Warning]
+> This project has moved to https://tangled.org/@fvoort.com/dotfiles. This repository is archived.
+
 ## A Fresh macOS Setup
 
 This repository contains instructions and scripts for setting up a new Mac from scratch. It automates essential configurations, installs preferred tools, and restores previous settings so you can get up and running quickly.
