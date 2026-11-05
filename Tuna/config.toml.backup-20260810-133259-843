@@ -1,0 +1,257 @@
+schemaVersion = 4
+
+[[comboMode.bindings]]
+iconPath = '/Applications/Firefox.app'
+key = 'b'
+label = 'Browser'
+url = 'tuna://run?subject=tuna.applications//Applications/Firefox.app&action=TunaCore.CommonActionsCatalog.Open'
+
+[[comboMode.bindings]]
+iconPath = '/Applications/Visual Studio Code.app'
+key = 'e'
+label = 'Editor'
+url = 'tuna://run?subject=Tuna.Internal.RecentObjectsCatalog.Visual%20Studio%20Code&action=Open'
+
+[[comboMode.bindings]]
+key = 'f'
+label = 'Files'
+url = 'tuna://run?subject=TunaCore.SystemApplicationsCatalog.Finder&action=Open'
+
+[[comboMode.bindings]]
+key = 'l'
+label = 'Lists'
+url = 'tuna://run?subject=TunaCore.AllApplicationsCatalog.Notion&action=Open'
+
+[[comboMode.bindings]]
+iconPath = '/Applications/Mimestream.app'
+key = 'm'
+label = 'Mail'
+url = 'tuna://run?subject=tuna.applications//Applications/Mimestream.app&action=TunaCore.CommonActionsCatalog.Open'
+
+[[comboMode.bindings]]
+key = 'n'
+label = 'Notes'
+url = 'tuna://run?subject=TunaCore.SystemApplicationsCatalog.Notes&action=Open'
+
+[[comboMode.bindings]]
+key = 's'
+label = 'Spotify'
+url = 'tuna://run?subject=TunaCore.AllApplicationsCatalog.Spotify&action=Open'
+
+[[comboMode.bindings]]
+key = 't'
+label = 'Terminal'
+url = 'tuna://run?subject=TunaCore.AllApplicationsCatalog.Ghostty&action=Open'
+
+[[comboMode.bindings]]
+key = 'w'
+label = 'WhatsApp'
+url = 'tuna://run?subject=TunaCore.AllApplicationsCatalog.WhatsApp&action=Open'
+
+[hotkeys.app.activate]
+carbonKeyCode = 49
+carbonModifiers = 6912
+
+[hotkeys.app.comboMode]
+carbonKeyCode = 31
+carbonModifiers = 6912
+
+[hotkeys.app.dictation]
+carbonKeyCode = 2
+carbonModifiers = 6912
+
+[hotkeys.app.textMode]
+carbonKeyCode = 17
+carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '0AD0D397-9411-462B-917E-9A6F3ED0A501'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.window-management/top-right-quarter'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 19
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '4EFA186B-BFBC-4C31-84E7-2F69AECA0CDA'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'Tuna.BasicActionsCatalog.Browse'
+    subjectIdentifier = 'tuna.clipboard/clipboard.history.root'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 4
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '4FB484CA-8D27-4264-90BB-8F50B6EF3FC0'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.window-management/bottom-half'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 125
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '6119FC28-7414-45E9-A6FA-54E41475B5DB'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.window-management/bottom-right-quarter'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 21
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '6CA887DE-D6C8-4B7A-827E-328984B83F4F'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.system-tasks/Lock Screen'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 37
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '89F86ECF-8505-4927-B0B7-2A20B125A4F7'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.window-management/right-half'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 124
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '903C0937-0256-457D-9354-B21AFD765EB3'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'Tuna.BasicActionsCatalog.Browse'
+    subjectIdentifier = 'tuna.emoji.search/emoji.search'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 14
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '958D4E41-F3CC-4645-8B76-EBED71920C84'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Open'
+    subjectIdentifier = 'tuna.applications//System/Applications/System Settings.app'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 43
+    carbonModifiers = 2048
+
+[[hotkeys.custom]]
+id = '963430C4-EFE6-4C40-8054-767716341AD7'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.window-management/top-left-quarter'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 18
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'B507AA98-F23A-46D5-8218-729BD467E50D'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.window-management/top-half'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 126
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'BA5C7824-4F2C-4B72-AF62-CEEBB2A2C9E6'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.window-management/left-half'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 123
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'C551637F-A5DA-4607-A8AC-64EA5BD9F608'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.window-management/center'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 8
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'D604BFE8-4E8A-4D6D-A474-426B8D23EF7D'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.window-management/maximize'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 36
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'DB1B6CED-2B39-4472-AF81-8B9FA5D3E3D3'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.window-management/bottom-left-quarter'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 20
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'F47BEB23-A921-4588-9214-B727439B8081'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run'
+    subjectIdentifier = 'tuna.color-tools/pick-color'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 35
+    carbonModifiers = 6912
+
+[settings]
+dictationActivationMode = 'toggle'
+physicalHyperKeySource = 'capsLock'
+shelfWindowAlwaysOnTop = false
+showTasksIndicatorWhenHidden = false
+
+[[catalogSettings]]
+catalogIdentifier = 'com.brnbw.tuna.themes.default'
+
+    [catalogSettings.values]
+    ThemeTint = 'system'

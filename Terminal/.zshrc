@@ -1,3 +1,6 @@
+# Use 1Password for SSH
+export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
+
 # Set the directory we want to store Zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
@@ -58,3 +61,24 @@ alias neofetch='fastfetch'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+# Herd injected PHP 8.4 configuration.
+export HERD_PHP_84_INI_SCAN_DIR="/Users/fvoort/Library/Application Support/Herd/config/php/84/"
+
+
+# Herd injected NVM configuration
+export NVM_DIR="/Users/fvoort/Library/Application Support/Herd/config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+[[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
+
+# Herd injected PHP binary.
+export PATH="/Users/fvoort/Library/Application Support/Herd/bin/":$PATH
+
+
+# Herd injected PHP 8.5 configuration.
+export HERD_PHP_85_INI_SCAN_DIR="/Users/fvoort/Library/Application Support/Herd/config/php/85/"
+
+
+# Herd injected PHP 8.6 configuration.
+export HERD_PHP_86_INI_SCAN_DIR="/Users/fvoort/Library/Application Support/Herd/config/php/86"
